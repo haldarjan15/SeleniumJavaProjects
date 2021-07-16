@@ -1,0 +1,68 @@
+git  -- Version(To konw your currrent version)
+
+git config --global user.name "haldarjan15"  (Other git user can know your name )
+
+git config --global user.email "haldarjan15@gmail" ( Other git user can know your name who is uploading the code)
+
+git config --list ( to check the configuraiton list)
+
+Need Help
+git help <verb>
+
+git <verb> help  [e.g. git add --help]
+
+
+
+git init [ To start a git on any existing project ]
+
+
+
+git add -A  [Move all the file to staging Area from working directory ]
+
+git reset  [To Remove every thing from the staging Area and will move the file to the working directory ]
+
+
+
+git commit -m "Message"  [To commit the file]
+
+git log  [Keep track of the commit , it also provide a Unique hash number]
+
+
+git clone <https://github.com/haldarjan15/AmitRepo.git>  .  [To clone all the file from reposatory ]
+
+git remote -v [List the information to the repo]
+
+git branch -a [ give the informaion of the branches]
+
+
+git diff [Will show you the changes which you have done in the working directory ]
+
+
+git pull origin master  [It will pull any changes that have been made since the last time that we pull from the repo]
+
+
+
+ [To push the code in the repo]
+
+
+git branch  "New" [ Create a new branch]
+git checkout "New" [switch to a branch]   
+
+$ git checkout -b iss53
+Createing and Switched to a new branch "iss53"
+
+
+
+Step by Step Guide to upload a project into Git Hub
+--------------------
+git init [ To start a git on any existing project ]
+git add -A  [Move all the file to staging Area from working directory ]
+git commit -m "Message"  [To commit the file]
+git remote add origin https://github.com/haldarjan15/AmitRepo.git
+git push origin master [Push the code in repo]
+git push -f origin master [If not pushed by earlier command we can use that it will forcefull push the code]
+
+
+
+
+
